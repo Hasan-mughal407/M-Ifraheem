@@ -24,9 +24,14 @@ header {
     width: 170px;
     height: 35px;
 }
+.logo1 .img {
+    width: 170px;
+    height: 35px;
+}
 
 .logo1 {
     display: none;
+    padding-top: 0;
 }
 
 nav ul {
@@ -78,7 +83,7 @@ ul li a:focus {
         flex-direction: column;
         background-color: #fff;
         position: fixed;
-        padding-top: 80px;
+        padding-top: 30px;
         padding-left: 10px;
         top: 0;
         left: -100%;
@@ -86,20 +91,26 @@ ul li a:focus {
         height: 100vh;
         box-shadow: 2px 0 10px #000;
         z-index: 999;
-        box-sizing: border-box;
+        
     }
 
     .nav-link.active {
         left: 0;
         display: flex;
     }
-
+.logo1 {
+    display: block;
+}
     nav ul {
         flex-direction: column;
+        
     }
-
+nav ul li a{
+    padding-right: 100px;
+}
     nav ul li {
         margin: 15px 0;
+        
     }
 
     .menu-btn {
@@ -110,14 +121,30 @@ ul li a:focus {
     .btn {
         display: none;
     }
-
-    .moon {
+    .moon1{
+    display: block;
+}
+.btn6{
+    display: block;
+    }
+    .moon{
         display: none;
     }
 }
+.moon1{
+    display: none;
+}
+.btn6{
+    display: none;
+    width: 200px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    border: none; 
+}
 
 .btn {
-
     font-size: 16px;
     background-color: #333;
     color: #fff;
@@ -130,14 +157,14 @@ ul li a:focus {
     background-color: #3498db;
 }
 
-.ro {
+.row {
     width: 100%;
     display: flex;
 }
 .box {
    margin-left: 20px; 
     width: 33%;
-    height: 655px;
+    height: 657px;
     padding-bottom: 20px;
     padding-top: 30px;
     background-color: #fff;
@@ -255,8 +282,8 @@ button {
 
 .social-links a {
     color: #000;
-
 }
+
 
 .section {
     margin-left: 15px;
@@ -340,11 +367,28 @@ text-decoration: 0;
     box-sizing: border-box;
     background-color: #ecf0f1;
     border: 2px solid #ecf0f1;
-    border-radius: 10px;
+    border-radius: 10px;    display: flex;
+    align-items: center;
+    justify-content: start;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
 }
 
 .let1 h2 {
     font-size: 40px;
-    margin: 20px 40px;
     color: #333;
+    margin: 0 25px;
+    display: inline-block;
+    animation: scroll-left 8s linear infinite;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }

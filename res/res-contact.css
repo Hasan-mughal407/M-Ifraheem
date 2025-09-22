@@ -73,7 +73,7 @@ form input{
 @media (max-width: 1199px) {
 
   /* Row and Columns */
-  .ro{
+  .row{
     flex-direction: column; /* sare div niche aa jayenge */
   }
 

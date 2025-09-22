@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
 
   /* Row and Columns */
-  .ro{
+  .row{
     flex-direction: column; /* sare div niche aa jayenge */
   }
 
@@ -92,11 +92,11 @@
 
   .let1 {
  width: 90%;
-    margin: 10px auto;
+ height: 60px;
+    margin: 1 auto;
   }
   .let1 h2{
-    font-size: 20px;
-    padding-top: 15px;
+    font-size: 25px;
   }
   
 }
@@ -106,7 +106,7 @@
 @media (max-width: 1199px) {
 
   /* Row and Columns */
-  .ro{
+  .row{
     flex-direction: column; /* sare div niche aa jayenge */
   }
 

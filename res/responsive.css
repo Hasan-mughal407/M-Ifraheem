@@ -93,15 +93,23 @@
     width: 20%;
     margin-bottom: 100px;
 }
-
+.lets{
+  padding-left: 0;
+}
   .let1 {
-    width: 80%;
+    width: 85%;
     height: 50px;
-    margin: 20px 0;
+    padding: 0;
+    margin: 20px auto;
   }
   .let1 p{
-    font-size: 13px;
-    padding-top: 10px;
+    font-size: 20px;
+  }
+  .br{
+    padding-left: 30px;
+  }
+  .lets a{
+    padding-left: 30px;
   }
   .ful{
     padding-left: 20px;
