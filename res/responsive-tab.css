@@ -1,0 +1,126 @@
+@media (max-width: 1024px) and (min-width: 769px) {
+
+  /* Row and Columns */
+  .row,
+  .main3 {
+    flex-direction: column;/* sare div niche aa jayenge */
+  }
+.tab{
+  width: 98%;
+  display: flex;
+  justify-content: center;
+}
+
+  .box,
+  .main{
+    width: 100%;
+    
+  }
+  .box{
+    width: 100%;
+    margin: 10px;
+  }
+
+  .main{
+    width: 100%;
+    height: 550px;
+    margin: 10px;
+    
+  }
+
+  header{
+    width: 78%;
+  }
+
+  
+  .project{
+    width: 90%;
+    margin: 10px 24px;
+    box-sizing: border-box;
+  }
+  .service-section,
+  .lets{
+     width: 90%;
+    margin: 10px 24px;
+    box-sizing: border-box;
+  }
+  .project{
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+  .project .pro{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .img1{
+    width: 95%;
+    height: auto;
+    padding-bottom: 0;
+  }
+  .img1 img {
+    width: 90%;
+    height: auto;
+  }
+  /* Images adjust */
+  img {
+    width: 70%;
+    height: auto;
+  }
+  .service-section {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .lets {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 40px;
+  }
+ 
+
+   .boxes {
+    flex-wrap: wrap; /* services ke box wrap ho jayenge */
+    justify-content: center;
+  }
+
+
+  .boxes .box {
+    margin: 10px auto;
+  }
+  .boxes .box p{
+    font-size: 15px;
+  }
+  .img1 p{
+    font-size: 1px;
+}
+.let1 {
+    width: 95%;
+    height: 65px;
+    margin: 0;
+  }
+.let{
+    width: 20%;
+    margin-bottom: 100px;
+}
+
+  .let1 p{
+    font-size: 20px;
+    padding-top: 18px;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  .ful{
+    padding-left: 20px;
+  }
+  
+  
+  .hi3{
+    display: flex;
+  }
+}

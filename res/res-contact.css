@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+
+    /* Row and Columns */
+    .row {
+        flex-direction: column;
+        /* sare div niche aa jayenge */
+    }
+.btn3{
+    flex-direction: column;
+}
+.btn3 button{
+    width: 230px;
+}
+    .box,
+    .section {
+        width: 100%;
+        margin: 10px 0;
+        height: auto;
+    }
+header{
+    width: 78%;
+  }
+    .box {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .section {
+        width: 90%;
+        margin: 10px 24px;
+        box-sizing: border-box;
+    }
+    .head b{
+    font-size: 30px;
+}
+.head1 p{
+    font-size: 20px;
+}
+.form{
+  padding-left: 10px;
+}
+form .f1 {
+    width: 90%;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 50px;
+}
+  .award1{
+    height: 124px;
+
+}
+.award1 p{
+    font-size: 20px;
+}
+
+
+.award2 p{
+    font-size: 20px;
+    padding-right: 0;
+}
+.award1:hover {
+    height: 280px;
+}
+ 
+.block p {
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+}
+
+}
+@media (max-width: 1199px) {
+
+  /* Row and Columns */
+  .ro{
+    flex-direction: column; /* sare div niche aa jayenge */
+  }
+
+  .box,
+  .section {
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+  }
+  .box{
+    width: 90%;
+  }
+
+  .section{
+    width: 90%;
+    box-sizing: border-box;
+  }
+  header{
+    width: 78%;
+  }
+   img {
+    width: 70%;
+    height: auto;
+  }
+  
+ .img1 {
+    width: 100%;
+    height: auto;
+  }
+  .revue1{
+    width: 90%;
+  }
+}

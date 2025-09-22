@@ -1,0 +1,143 @@
+@media (max-width: 768px) {
+
+  /* Row and Columns */
+  .ro{
+    flex-direction: column; /* sare div niche aa jayenge */
+  }
+
+  .box,
+  .section {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  header{
+    width: 78%;
+  }
+  .btn3{
+    flex-direction: column;
+}
+.btn3 button{
+    width: 230px;
+}
+  /* Images adjust */
+  img {
+    width: 70%;
+    height: auto;
+  }
+  
+ .img1 {
+    width: 100%;
+    height: auto;
+  }
+  .jpeg{
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+  .hire p {
+    font-size: 20px;
+   ;
+}
+.head h2{
+    font-size: 25px;
+}
+
+.head1 p {
+   
+    font-size: 22px;
+}
+    .hea1 b {
+    font-size: 30px;
+}
+
+.hea1 p {
+    font-size: 15px;
+}
+
+.head2{
+    flex-direction: column;
+}
+.head2 .hea1{
+    padding: 30px 0;
+}
+
+.revue-header{
+    flex-direction: column;
+}
+.revue{
+   flex-direction: column; 
+}
+.award1{ 
+   height: 250px;
+   flex-direction: column;
+   align-items: normal;
+   justify-content: flex-start;
+   padding-top: 20px;
+   padding-left: 25px;
+}
+
+.cer{
+  margin-top: 30px;
+  margin-left: 120px;
+}
+.awimg{
+   margin: 0;
+}
+.let{
+    width: 20%;
+    margin-bottom: 100px;
+}
+
+  .let1 {
+ width: 90%;
+    margin: 10px auto;
+  }
+  .let1 h2{
+    font-size: 20px;
+    padding-top: 15px;
+  }
+  
+}
+
+
+
+@media (max-width: 1199px) {
+
+  /* Row and Columns */
+  .ro{
+    flex-direction: column; /* sare div niche aa jayenge */
+  }
+
+  .box,
+  .section {
+    width: 100%;
+    margin: 10px 0;
+    height: auto;
+  }
+  .box{
+   width: 90%;
+   margin: 10px auto;
+  }
+
+  .section{
+    width: 90%;
+    margin: 10px auto;
+  }
+  header{
+    width: 78%;
+  }
+   img {
+    width: 70%;
+    height: auto;
+  }
+  
+ .img1 {
+    width: 100%;
+    height: auto;
+  }
+  .revue1{
+    width: 90%;
+  }
+}

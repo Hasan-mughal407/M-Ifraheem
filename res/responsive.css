@@ -1,0 +1,122 @@
+@media (max-width: 768px) {
+
+  /* Row and Columns */
+  .row,
+  .tab,
+  .main3 {
+    flex-direction: column; /* sare div niche aa jayenge */
+  }
+
+  .box,
+  .main,
+  .project,
+  .service-section,
+  .lets {
+    width: 100%;
+    height: auto;
+  }
+  header{
+    width: 85%;
+  }
+  .btn3{
+    flex-direction: column;
+}
+.btn3 button{
+    width: 250px;
+}
+  .box{
+    width: 90%;
+    margin: 10px auto;
+  }
+  .service-section,
+  .lets{
+    width: 90%;
+    margin: 10px auto;
+  }
+  .tab{
+    width: 100%;
+  }
+  .main{
+    margin: 0;
+  }
+  .main1{
+    width: 90%;
+    margin: 10px auto;
+    padding: 0;
+  }
+
+  .main2{
+    width: 90%;
+    margin: 10px auto;
+    padding: auto 0;
+  }
+  .project{
+    width: 90%;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+  .service-section,
+  .lets{
+     width: 90%;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+  
+  /* Images adjust */
+  img {
+    width: 70%;
+    height: auto;
+  }
+  
+ .img1 {
+    width: 100%;
+    height: auto;
+
+  }
+
+   .boxes {
+    flex-wrap: wrap; /* services ke box wrap ho jayenge */
+    justify-content: center;
+  }
+
+
+  .boxes .box {
+    margin: 10px auto;
+  }
+  .boxes .box p{
+    font-size: 15px;
+  }
+  .img1 p{
+    font-size: 1px;
+}
+.let{
+    width: 20%;
+    margin-bottom: 100px;
+}
+
+  .let1 {
+    width: 80%;
+    height: 50px;
+    margin: 20px 0;
+  }
+  .let1 p{
+    font-size: 13px;
+    padding-top: 10px;
+  }
+  .ful{
+    padding-left: 20px;
+  }
+  .hi{
+    flex-direction: column;
+    align-items: normal;
+  }
+  .hi .butn {
+    padding-left: 0px;
+  }
+  .hi p{
+ 
+  }
+  .hi3{
+    display: flex;
+  }
+}
